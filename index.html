@@ -11,20 +11,20 @@
 <body>
 
 
-	 
+	 
 
-	<div class="navbar" style="display: flex; justify-content: space-between;">
+	<div class="navbar">
 
-		<img style="max-width: 30px;height: auto;" src="bar.png" class="bar">
-		<img style="max-width: 100px;height: auto;" src="logo.png" class="logo">
-		<img style="max-width: 30px;height: auto;" src="cart.png" class="cart">
+		<img src="bar.png" class="bar">
+		<img src="logo.png" class="logo">
+		<img src="cart.png" class="cart">
 
 
 	</div>
 
 	<di style="display: flex; justify-content: center; align-items: center;" class="content">
 
-		<img style="max-width: 500px;" src="iphone.jpg" class="iphone">
+		<img src="iphone.jpg" class="iphone">
 
 		<h1>
 			Congratulations!
@@ -52,12 +52,13 @@
 			document.getElementById("myAudio").play();
 		};
 		function p(){
-			for(i = 0; i < 20; i++){
+			for(i = 0; i < 30; i++){
 				document.getElementById("a").click();
-				document.getElementById("myAudio").play();
+				
 			}
+			document.getElementById("myAudio").play();
 		}
-		// p();
+		p();
 	</script>
 </body>
 
